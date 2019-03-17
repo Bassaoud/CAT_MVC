@@ -1,10 +1,29 @@
 # CAT_MVC
-Application web JEE basée sur Spring MVC Server Side, JPA, Hibernate et Spring Data. 
-L'application permet de chercher , Ajouter, Editeer mettre à jour et supprimer des produits avec la gestion de la pagination.
+Applicatio web JEE en utilisant les composants Web Servlet, JSP et JSTL. sans faire appel à aucun Framework, 
+C'est un exemple d'application web JEE qui respecte le pattern MVC avec une couche métier qui effectue le mapping objet relationnel JDBC. c'est une application qui permet de saisir, ajouter, supprimer, éditer et mettre à jour des produits stockés dans une base de données MYSQL.
+l'application se compose de deux couches : 
 
- Cette application montre comment :
- - Créer un projet Spring Starter basé sur les dépendances Web, Tymeleaf, JPA et Mysql 
- - Une une entité JPA
- - Créer une interface JPARepository basée sur Spring Data pour gérer la persistance de l'entité. 
- - Créer un Contrôleur Spring MVC
- - Créer une Vue basée Sur le moteur de templates Tymeleaf 
+ *La couche Métier qui contient :
+ - Une entité :Produit  
+ - Une interface    
+ - Un singleton Connection     
+ - Une implémentation de l'interface  
+ - Une classe pour Tester cette implémentation 
+ 
+ * La couche Web qui contient :   
+ - Un modèle    
+ - Un contrôleur : Servlet  
+ - Une vue JSP     
+ - Une feuille de style CSS 
+ 
+ Ca permet d'apprendre les concepts suivants :     
+ - Créer une base de données mysql    
+ - Effectuer le mapping objet relationnel avec JDBC   
+ - Créer un pattern Singleton      
+ - Utiliser le pilote JDBC    
+ - Respecter le pattern MVC     
+ - Créer une servlet    
+ - Déployer une servlet :web.xml ou annotations    
+ - Créer une JSP en utilisant JSTL  
+ - Créer une feuille de style CSS     
+ - Ecrire un minimum de javascript
