@@ -1,5 +1,5 @@
 # CAT_MVC
-Applicatio web JEE en utilisant les composants Web Servlet, JSP et JSTL. sans faire appel à aucun Framework, 
+Application web JEE en utilisant les composants Web Servlet, JSP et JSTL. sans faire appel à aucun Framework. 
 C'est un exemple d'application web JEE qui respecte le pattern MVC avec une couche métier qui effectue le mapping objet relationnel JDBC. c'est une application qui permet de saisir, ajouter, supprimer, éditer et mettre à jour des produits stockés dans une base de données MYSQL.
 l'application se compose de deux couches : 
 
